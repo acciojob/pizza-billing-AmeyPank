@@ -29,6 +29,10 @@ public class Pizza {
         basePizzaPrice = this.price;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
     public void addExtraCheese(){
         // your code goes here
         isExtraCheeseAdded = true;
